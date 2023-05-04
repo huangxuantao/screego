@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/screego/server/ws/outgoing"
+	"github.com/huangxuantao/screego/ws/outgoing"
 )
 
 type Typed struct {

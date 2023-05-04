@@ -3,15 +3,15 @@ package cmd
 import (
 	"os"
 
+	"github.com/huangxuantao/screego/auth"
+	"github.com/huangxuantao/screego/config"
+	"github.com/huangxuantao/screego/logger"
+	"github.com/huangxuantao/screego/router"
+	"github.com/huangxuantao/screego/server"
+	"github.com/huangxuantao/screego/turn"
+	"github.com/huangxuantao/screego/ws"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/auth"
-	"github.com/screego/server/config"
-	"github.com/screego/server/logger"
-	"github.com/screego/server/router"
-	"github.com/screego/server/server"
-	"github.com/screego/server/turn"
-	"github.com/screego/server/ws"
 	"github.com/urfave/cli"
 )
 

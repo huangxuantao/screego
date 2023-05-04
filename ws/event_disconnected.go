@@ -3,7 +3,7 @@ package ws
 import (
 	"bytes"
 
-	"github.com/screego/server/ws/outgoing"
+	"github.com/huangxuantao/screego/ws/outgoing"
 )
 
 type Disconnected struct{}

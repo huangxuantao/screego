@@ -18,7 +18,7 @@ This means the image will work for `amd64`, `i386`, `ppc64le` (power pc), `arm64
 
 When using [TURN](nat-traversal.md), Screego will allocate ports for relay
 connections, this currently only works with network mode host inside docker.
-See [#56](https://github.com/screego/server/issues/56)
+See [#56](https://github.com/huangxuantao/screego/issues/56)
 
 By default, Screego runs on port 5050.
 
@@ -60,10 +60,10 @@ services:
 - windows_i386.exe (32bit)
 - windows_amd64.exe (64bit)
 
-Download the zip with the binary for your platform from [screego/server Releases](https://github.com/screego/server/releases).
+Download the zip with the binary for your platform from [screego/server Releases](https://github.com/huangxuantao/screego/releases).
 
 ```bash
-$ wget https://github.com/screego/server/releases/download/vGITHUB_VERSION/screego_GITHUB_VERSION_{PLATFORM}.tar.gz
+$ wget https://github.com/huangxuantao/screego/releases/download/vGITHUB_VERSION/screego_GITHUB_VERSION_{PLATFORM}.tar.gz
 ```
 
 Unzip the archive.

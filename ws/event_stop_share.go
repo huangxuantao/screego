@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/screego/server/ws/outgoing"
+	"github.com/huangxuantao/screego/ws/outgoing"
 )
 
 func init() {

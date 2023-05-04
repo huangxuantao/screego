@@ -13,7 +13,7 @@ Screego requires:
 Clone screego/server source from git:
 
 ```bash
-$ git clone https://github.com/screego/server.git && cd server
+$ git clone https://github.com/huangxuantao/screego.git && cd server
 ```
 
 ### GOPATH

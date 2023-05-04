@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/huangxuantao/screego/config/mode"
 	"github.com/joho/godotenv"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/rs/zerolog"
-	"github.com/screego/server/config/mode"
 )
 
 var (

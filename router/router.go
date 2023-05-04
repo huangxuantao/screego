@@ -7,13 +7,13 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
+	"github.com/huangxuantao/screego/auth"
+	"github.com/huangxuantao/screego/config"
+	"github.com/huangxuantao/screego/ui"
+	"github.com/huangxuantao/screego/ws"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/zerolog/hlog"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/auth"
-	"github.com/screego/server/config"
-	"github.com/screego/server/ui"
-	"github.com/screego/server/ws"
 )
 
 type UIConfig struct {

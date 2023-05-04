@@ -3,8 +3,8 @@ package ws
 import (
 	"fmt"
 
+	"github.com/huangxuantao/screego/ws/outgoing"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/ws/outgoing"
 )
 
 func init() {

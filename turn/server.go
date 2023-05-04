@@ -5,14 +5,14 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"fmt"
+	"github.com/huangxuantao/screego/config"
+	"github.com/huangxuantao/screego/util"
 	"net"
 	"sync"
 	"time"
 
 	"github.com/pion/turn/v2"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/config"
-	"github.com/screego/server/util"
 )
 
 type Server interface {

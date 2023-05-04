@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
+	"github.com/huangxuantao/screego/auth"
+	"github.com/huangxuantao/screego/config"
+	"github.com/huangxuantao/screego/turn"
+	"github.com/huangxuantao/screego/util"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/auth"
-	"github.com/screego/server/config"
-	"github.com/screego/server/turn"
-	"github.com/screego/server/util"
 )
 
 func NewRooms(tServer turn.Server, users *auth.Users, conf config.Config) *Rooms {

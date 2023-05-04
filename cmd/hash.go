@@ -5,9 +5,9 @@ import (
 	"os"
 	"syscall"
 
+	"github.com/huangxuantao/screego/logger"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/screego/server/logger"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/term"

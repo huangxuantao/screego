@@ -5,9 +5,9 @@ import (
 	"net"
 	"sort"
 
+	"github.com/huangxuantao/screego/config"
+	"github.com/huangxuantao/screego/ws/outgoing"
 	"github.com/rs/xid"
-	"github.com/screego/server/config"
-	"github.com/screego/server/ws/outgoing"
 )
 
 type ConnectionMode string

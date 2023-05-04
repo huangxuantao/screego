@@ -120,7 +120,7 @@ export const RoomManage = ({room, config}: {room: FCreateRoom; config: UseConfig
             </Grid>
             <div style={{position: 'absolute', margin: '0 auto', bottom: 0}}>
                 Screego {config.version} |{' '}
-                <Link href="https://github.com/screego/server/">GitHub</Link>
+                <Link href="https://github.com/huangxuantao/screego/">GitHub</Link>
             </div>
         </Grid>
     );
